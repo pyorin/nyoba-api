@@ -4,7 +4,7 @@ const Anime = () => {
   const [animeInput, setAnimeInput] = useState("");
   const [animeData, setAnimeData] = useState();
 
-  const api = `https://api.jikan.moe/v4/anime?q=${animeInput}&limit=6`;
+  const api = `https://api.jikan.moe/v4/anime?q=${animeInput}&limit=10`;
 
   const searchAnime = async () => {
     const response = await fetch(api);
