@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nyoba-api/static/css/main.e6c13ad2.css",
+    "main.js": "/nyoba-api/static/js/main.ed6f9033.js",
+    "static/js/787.0a29ddfa.chunk.js": "/nyoba-api/static/js/787.0a29ddfa.chunk.js",
+    "index.html": "/nyoba-api/index.html",
+    "main.e6c13ad2.css.map": "/nyoba-api/static/css/main.e6c13ad2.css.map",
+    "main.ed6f9033.js.map": "/nyoba-api/static/js/main.ed6f9033.js.map",
+    "787.0a29ddfa.chunk.js.map": "/nyoba-api/static/js/787.0a29ddfa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ed6f9033.js"
+  ]
+}
