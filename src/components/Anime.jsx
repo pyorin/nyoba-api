@@ -14,7 +14,7 @@ const Anime = () => {
 
   return (
     <div className="container">
-      <h1 className="text-center">Anime</h1>
+      <h1 className="text-center text-white">Anime</h1>
       <div className="search d-flex justify-content-center">
         <input
           type="search"
@@ -30,28 +30,31 @@ const Anime = () => {
           ? animeData.map((animeData) => (
               <div className="col-md-4 mt-2 mb-2" key={animeData.mal_id}>
                 <div className="card">
-                  <div className="card-body text-center">
+                  <div className="card-body">
                     <img
                       src={animeData.images.jpg.large_image_url}
                       alt="animebanner"
-                      width="300px"
-                      height="300px"
+                      width="auto"
+                      height="auto"
+                      className="card-img-top"
                     />
-                    <h5 className="card-title">{animeData.title}</h5>
+                    <h5 className="card-title text-center">
+                      {animeData.title}
+                    </h5>
                     <p className="card-text">
-                      Type: {animeData.type}
+                      Type : {animeData.type}
                       <br />
-                      Source: {animeData.source}
+                      Source : {animeData.source}
                       <br />
-                      Episode: {animeData.episodes}
+                      Episode : {animeData.episodes}
                       <br />
-                      Rating: {animeData.rating}
+                      Rating : {animeData.rating}
                       <br />
-                      Score: {animeData.score}
+                      Score : {animeData.score}
                       <br />
-                      Popularity: {animeData.popularity}
+                      Popularity : {animeData.popularity}
                       <br />
-                      Members: {animeData.members}
+                      Members : {animeData.members}
                       <br />
                     </p>
                     <a
